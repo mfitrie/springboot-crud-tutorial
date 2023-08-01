@@ -1,4 +1,4 @@
-package com.tutorial.hello.student;
+package com.tutorial.hello.student.Controller;
 
 import java.util.List;
 
@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.tutorial.hello.student.Model.Student;
+import com.tutorial.hello.student.Service.StudentService;
 
 @RestController
 @RequestMapping(path = "api/v1/student")

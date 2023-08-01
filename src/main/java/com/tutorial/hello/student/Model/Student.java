@@ -1,4 +1,4 @@
-package com.tutorial.hello.student;
+package com.tutorial.hello.student.Model;
 
 import java.time.LocalDate;
 import java.time.Period;

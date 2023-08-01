@@ -1,4 +1,4 @@
-package com.tutorial.hello.student;
+package com.tutorial.hello.student.Service;
 
 import java.time.LocalDate;
 import java.time.Month;
@@ -8,6 +8,9 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.tutorial.hello.student.Database.StudentRepository;
+import com.tutorial.hello.student.Model.Student;
 
 import jakarta.transaction.Transactional;
 
